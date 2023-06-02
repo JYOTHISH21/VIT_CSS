@@ -1,0 +1,40 @@
+body{
+    color:purple;
+    background-color:yellow;
+}
+div{
+    margin-left:6%;
+    padding:1px 16px;
+    height:1000px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 5%;
+    background-color: #ffffff;
+    position: fixed;
+    height: 21%;
+    overflow: auto;
+  }
+  
+  li a {
+    display: block;
+    color: #5d00ff;
+    padding: 8px 10px;
+    text-decoration: none;
+    border-right:10px solid #000000;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ff6f00;
+    color: white;
+  }
+  .Active{
+    color:purple
+  }
